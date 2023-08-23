@@ -8,7 +8,7 @@ class Result:
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
-    return 'Hello!'
+    return 'Hello world!'
 
 @app.route("/calculator/add", methods=['POST'])
 def add():
